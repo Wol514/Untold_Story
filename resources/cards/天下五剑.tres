@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://7so0pte8h2lr"]
+
+[ext_resource type="Script" uid="uid://drcsrdojal5m4" path="res://scripts/cards/CardEffect.gd" id="1_5sd0r"]
+[ext_resource type="Script" uid="uid://biu705org7a23" path="res://scripts/cards/CardData.gd" id="1_87dw2"]
+[ext_resource type="Texture2D" uid="uid://dv5vvbgdxmehw" path="res://assets/天下五剑.png" id="3_bmxue"]
+
+[sub_resource type="Resource" id="Resource_ccp1k"]
+script = ExtResource("1_5sd0r")
+target = 2
+base_value = 15.0
+metadata/_custom_type_script = "uid://drcsrdojal5m4"
+
+[resource]
+script = ExtResource("1_87dw2")
+card_name = "天下五剑"
+description = "群伤，丝瓜最爱，15"
+action_point_cost = 2
+texture = ExtResource("3_bmxue")
+effect = SubResource("Resource_ccp1k")
+metadata/_custom_type_script = "uid://biu705org7a23"
